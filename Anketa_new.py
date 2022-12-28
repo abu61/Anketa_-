@@ -17,9 +17,9 @@ l = int(input('Ваша любимая ОС ? ' '1 - macOS ' ' 2 - Windows ' ' 3
 print(l)  
 f = int(input('Ваш любимый магазин? ' '1 - пятерочка ' ' 2 - Дикси' ' 3 - магнит ' )) 
 print(f) 
-if c == 2 or c == 1 and d == 1 or 2 and v == 2 or v == 4: 
+if c == 2 or c == 1 and d == 1 or d == 2 and v == 2 or v == 4: 
     print('Мы с вами подружимся') 
-elif c == 2 or c == 1 and d == 1 or 2 and v == 2 or v == 4 and h == 1 or h == 2 and j != 1 or j == 3 and s != 2 or s == 3 and l != 1 or l == 2 and f != 1 or f == 2:
+elif c == 2 or c == 1 and d == 1 or d == 2 and v == 2 or v == 4 and h == 1 or h == 2 and j != 1 or j == 3 and s != 2 or s == 3 and l != 1 or l == 2 and f != 1 or f == 2:
     print('Мы может быть подружимся')
 else: 
     print('Мы с вами не подружимся')
